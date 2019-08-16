@@ -7,17 +7,26 @@ namespace Laboratorio_1_OOP_201902
 {
     public class Deck
     {
-        private List<CombatCard> combatCards;
-        private List<SpecialCard> SpecialCards;
+        //Atributes
 
+        protected List<CombatCard> combatCards;
+        protected List<SpecialCard> SpecialCards;
+
+
+        //Constructor
         public Deck()
         {
-
+            this.CombatCards = combatCards;
+            this.SpecialCards1 = SpecialCards;
         }
+
+        //Properties
 
         public List<CombatCard> CombatCards { get => combatCards; set => combatCards = value; }
         public List<SpecialCard> SpecialCards1 { get => SpecialCards; set => SpecialCards = value; }
 
+
+        //Methods
         public void AddCombatCard(CombatCard combatCard) { throw new NotImplementedException(); }
         public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); }
         public void DestroyCombatCard(int cardId) { throw new NotImplementedException(); }

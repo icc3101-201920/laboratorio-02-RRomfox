@@ -5,24 +5,27 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902
 {
-    public class Hand
+    public class Hand : Deck
     {
-        private List<CombatCard> combatCards;
-        private List<SpecialCard> SpecialCards;
+        //Atributes
 
-        public Hand()
+        //Does not have its own
+
+
+        //Constructor
+        public Hand() : base()
         {
-
+            //Nothing to add in the meantime
         }
 
-        public List<CombatCard> CombatCards { get => combatCards; set => combatCards = value; }
-        public List<SpecialCard> SpecialCards1 { get => SpecialCards; set => SpecialCards = value; }
 
-        
-        public void AddCombatCard(CombatCard combatCard) { throw new NotImplementedException(); }
-        public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); }
-        public void DestroyCombatCard(int cardId) { throw new NotImplementedException(); }
-        public void DestroySpecialCard(int cardId) { throw new NotImplementedException(); }
-        
+        //Properties
+
+        //Does not have its own
+
+
+        //Methods
+
+        //Does not have its own
     }
 }
