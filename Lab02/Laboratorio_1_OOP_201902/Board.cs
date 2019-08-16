@@ -166,5 +166,10 @@ namespace Laboratorio_1_OOP_201902
         {
             throw new NotImplementedException();
         }
+
+        public void DestroyCombatCard(int playerId)
+        {
+            if Player.Id() == (playerId) { }
+        }
     }
 }

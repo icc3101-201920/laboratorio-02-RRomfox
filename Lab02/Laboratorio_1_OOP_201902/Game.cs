@@ -63,7 +63,14 @@ namespace Laboratorio_1_OOP_201902
         //Metodos
         public bool CheckIfEndGame()
         {
-            throw new NotImplementedException();
+            if Player.LifePoints == 0
+            {
+                return true;
+            }
+            else
+            {
+                return false
+            }
         }
         public bool GetWinner()
         {
@@ -71,7 +78,9 @@ namespace Laboratorio_1_OOP_201902
         }
         public void Play()
         {
-            throw new NotImplementedException();
-        }
+            if Player.LifePoints == 0
+            {
+                return other.Player.Id;
+            }
     }
 }

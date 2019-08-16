@@ -7,9 +7,7 @@ namespace Laboratorio_1_OOP_201902
     {
         static void Main(string[] args)
         {
-            CombatCard A = new CombatCard("Chuen", "Warrior", "Carries", 100, true);
-
-            Console.WriteLine(A.Name);
+            
         }
     }
 }
